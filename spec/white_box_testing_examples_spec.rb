@@ -5,7 +5,7 @@ describe WhiteBoxTestingExamples do
     expect(WhiteBoxTestingExamples::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "the truth" do
+    expect(true).to be_truthy
   end
 end
